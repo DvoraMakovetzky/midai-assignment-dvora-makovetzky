@@ -1,0 +1,50 @@
+# קבצי קומפילציה של פייתון
+__pycache__/
+*.py[cod]
+*$py.class
+
+# סביבות וירטואליות
+venv/
+env/
+.venv/
+.env/
+
+# קבצי קונפיגורציה אישיים של PyCharm
+.idea/
+
+# קבצי הפעלה של VSCode אם את גם משתמשת בו
+.vscode/
+
+# קבצים זמניים
+*.log
+*.tmp
+
+# תוצרי build / הפצה
+build/
+dist/
+*.egg-info/
+
+# קבצי מערכת
+.DS_Store
+Thumbs.db
+
+# Checkpoints של Jupyter אם את משתמשת בו
+.ipynb_checkpoints/
+
+# קבצים גדולים שהורדו (מודלים של YOLO וכו')
+# runs/
+weights/
+models/
+*.pt
+
+# קבצים של YOLOv5 / ultralytics שיכולים להיות זמניים
+*.onnx
+*.tflite
+*.ncnn
+*.mlmodel
+*.engine
+*.yaml
+
+# דטאסטים שהורדת
+datasets/
+data/
